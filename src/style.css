@@ -566,11 +566,15 @@ form input, form textarea{
     
     .profile-container{
         flex-basis: 30%;
-        gap:20px
+        gap:20px;
+        
     }
     header{
         height: 100vh;
 
+    }
+    .profile-txt{
+        z-index: 1;
     }
     .profile-txt h2{
         width: 100%;
@@ -594,9 +598,10 @@ form input, form textarea{
         display: none;
     }
     .profile img{
-        width: 110%;
+        width: 150%;
         height: 90%;
-         object-fit: cover;
+        object-fit: cover;
+        position: relative;
 
     }
     .navbar .fa-solid{
